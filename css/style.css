@@ -1,0 +1,404 @@
+@charset "utf-8";
+
+html{
+
+    font-size:62.5%;/*16px62.5%=10px*/
+}
+
+body{
+    color:#333;
+    font-family: "Open Sans",'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,sans-serif;
+    font-size:1.6rem;
+    
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*hero*/
+.hero-image{
+    position: relative;
+}
+.site-title{
+    position: absolute;
+    top:30%;
+    left:25%;
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: bold;
+    
+}
+.site-title2{
+    position: absolute;
+    top:40%;
+    left:25%;
+    color: #fff;
+    font-size: 3.2rem;
+    
+}
+
+
+
+/*header*/
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin: 0 0 0 32px;
+    text-transform: uppercase;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.nav-item>a{
+    color:#333333;
+}
+.heder{
+    margin: 0 0 60;
+    background-color: #fff;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0px 112px 0px 113px;
+}
+/*about*/
+.t1{
+    margin-bottom: 64px;
+}
+.gyokan{
+    line-height: 2em;
+}
+.gyokan_2{
+    font-size: 16pt;
+    line-height: 2em;
+}
+.space1{
+    margin-bottom: 2em;
+}
+.space2{
+    margin-bottom: 80px;
+}
+.profile{
+    max-width: width 100%;;
+    margin:  0 0 0;
+    border-top: 1px solid #efefef;
+}
+.news_title1 {
+    margin: 0 0 24px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.profile__title{
+    margin: 80px 0 24px;
+    font-weight: bold;
+    color:#ffd61a;
+}
+.image-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 64px;
+}
+
+
+.about__c{
+    margin-bottom: em;
+}
+teigi__csa{
+    margin: 0 0 40px;
+}
+/*course*/
+.title-co{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.titleja2{
+
+    margin-bottom: 64px;
+}
+.side-kick{
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.kari{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.li-item1{
+        position: relative;
+        left: -17px;
+        top: 49px;
+        width:683px;
+        height:460px; }
+.testw{
+        position: absolute;
+        top:20%;
+        left:10%; 
+        line-height: 2em;}
+        
+.li-item2{
+        position: relative;
+        left: -17px;
+        top: 49px;
+        width:683px;
+        height:460px; }
+.testw2{
+        position: absolute;
+        top:20%;
+        left:10%;
+        line-height: 2em;
+}
+
+.li-item3{
+    position: relative;
+    left: -17px;
+    top: 49px;
+    width:683px;
+    height:460px; }
+.testw3{
+    position: absolute;
+    top:20%;
+    left:10%;
+    line-height: 2em;
+}
+
+.subh3ja{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.img1{
+    width: 50%;
+}
+/*news*/
+.wrapper{
+    max-width: 1136px;
+    margin: auto;
+}
+.news-list{
+    display: flex;
+    margin: 6px 6px 64px;
+    
+}
+.news-item{
+    width: 33.333%;
+    margin: 0 24px 0 0;
+    line-height: 1;
+}
+.news_title{
+margin: 0 0 24px;
+font-size: 2.4rem;
+font-weight: bold;
+
+
+}
+
+.news-heading{
+    color: #ffd61a;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.news-heading-jp{
+    margin-top: 24px;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+}
+.news-sub-heading{
+    font-weight: bold;
+
+}
+.news-descript{
+    margin-top:24px;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+.news-card{
+    
+    margin-top: 64px
+}
+.news-date{
+    margin-top: 16px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.news-contents{
+    margin-top: 24px;
+    padding-left:  16px;
+    line-height: 1;
+}
+
+
+.news-line{
+    line-height: 1.75;
+}
+
+.news-footer{
+    margin-top: 40px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    width: 264px;
+    margin: auto;
+    padding-top: 22px ;
+    padding-bottom: 22px;
+    background-color :#ffd61a;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+
+
+}
+/*access*/
+/*access*/
+.image_mapm{
+    margin-top: 40px;
+    margin-bottom: 64px;
+
+}
+.access {
+    background-color: #fafafa;
+    text-align: center;
+    padding-bottom: 79px;
+    line-height: 2em;
+}
+.access_title{
+    padding: 65px 0 0 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.a-list{
+    display: flex;
+}
+.sc-item{
+    text-align: right;
+    width: 574px;
+    font-weight: bold;
+}
+.subtitleaj{
+    margin-bottom: 48px;
+}
+.subtitleaj2{
+    margin-bottom: 64px;
+}
+.ca-tk{
+    color: #707070;
+    text-align: left;
+    width: 768px;
+    margin-left: 24px;
+}
+/*contact*/
+.contact{
+    padding: 80px 0 64px;
+}
+.contact__title{
+    margin: 0 0 64px;
+    font-weight: bold;
+}
+.form-wrapper{
+    width: 640px;
+    margin: auto;
+    line-height: 2em;
+}
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+}
+
+.form-title{
+    width:130px;
+    margin: 0 24px 0 0;
+    font-weight: bold;
+    text-align: right;
+}
+.form-item{
+    width:388px;
+    margin: 0 0 32px;
+}
+.form-parts{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border:solid 1px c#c9c9c9;
+    font-size: 1.6rem;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-apearance:none;
+
+
+}
+
+
+.form-label{
+    margin:  0 16px 0 0;
+    font-size: 1.4rem;
+}
+input[type*"radio"]{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-apearance:none;
+    width: 16px;
+    height: 16px;
+    margin:  0 10px 0 0;
+    border-radius: 50%;
+}
+input[type*="radio"]:checked{
+    background-color: #eeeeee;
+}
+.btn-submit{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-apearance:none;
+    border: none;
+}
+/*footer*/
+.footer{
+    padding:  24px 0;
+    background-color: #707070;
+}
+.copyright{
+    color: #fff;
+}
+/*test*/
+
+    
+.card-base{
+    position: relative;
+    left: 30px;
+    top:30px;
+    width:683px;
+    height:460px;
+    
+}
+.testw{
+    position: absolute;
+    top:20%;
+    left:10%;
+    
+    
+}
